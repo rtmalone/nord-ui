@@ -1,0 +1,24 @@
+@import './nord-variables.css';
+
+/* DOM body */
+
+body {
+    background-color: var(--dark-bg);
+    background-image: none;
+    color: var(--light-font-color);
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+}
+.nord-light {
+    background-color: var(--light-bg);
+    background-image: none;
+    color: var(--dark-font-color);
+    /*
+    Anti-aliasing works best on light fonts on dark backgrounds. Otherwise, 
+    there is a loss of readability. 
+    */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

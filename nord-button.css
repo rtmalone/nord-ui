@@ -1,0 +1,68 @@
+@import './nord-variables.css';
+
+.btn {
+    display: inline-block;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    padding: 0 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    color: var(--light-font-color);
+    background-color: var(--nord3);
+    background-image: none;
+    border: 1px solid var(--nord3);
+    border-radius: 0.4rem;
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+}
+.btn:hover {
+    text-decoration: none;
+    color: var(--light-font-color);
+    background-color: var(--nord3);
+    filter: brightness(1.2);
+}
+.btn:focus {
+    color: var(--light-font-color);
+    background-color: var(--nord3);
+    border-color: var(--nord3);
+    box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    outline: 1px dotted transparent;
+    outline-offset: 0.2rem;
+    filter: brightness(0.8);   
+}
+.btn:active {
+    text-decoration: none;
+    color: var(--light-font-color);
+    background-color: var(--nord3);
+    filter: brightness(0.8);   
+}
+.btn.active {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    outline: 1px dotted transparent;
+    outline-offset: 0.2rem;
+}
+.btn:focus:hover {
+    /*
+    Only text color and background properties are overridden, while the border 
+    color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #f7f7f7;
+}
+.btn.active:hover {
+    /*
+    Only text color and background properties are overridden, while the border 
+    color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #f7f7f7;
+}
