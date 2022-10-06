@@ -16,7 +16,7 @@ Default
     background-color: var(--default-color);
     background-image: none;
     border: 1px solid var(--default-color);
-    border-radius: 0.4rem;
+    border-radius: var(--border-radius);
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);

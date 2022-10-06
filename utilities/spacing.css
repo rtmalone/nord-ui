@@ -1,0 +1,27 @@
+/*
+--------------------------------
+Margin
+--------------------------------
+*/
+
+.nord-m-around_none {
+    margin: 0;
+}
+.nord-m-top_none {
+    margin-top: 0;
+}
+.nord-m-top_x-small {
+    margin-top: 0.25rem;
+}
+.nord-m-top_small {
+    margin-top: 0.5rem;
+}
+.nord-m-top_medium {
+    margin-top: 1rem;
+}
+.nord-m-top_large {
+    margin-top: 1.25rem;
+}
+.nord-m-top_x-large {
+    margin-top: 1.5rem;
+}
