@@ -13,9 +13,9 @@ Default
     white-space: nowrap;
     cursor: pointer;
     color: var(--light-font-color);
-    background-color: var(--nord3);
+    background-color: var(--default-color);
     background-image: none;
-    border: 1px solid var(--nord3);
+    border: 1px solid var(--default-color);
     border-radius: 0.4rem;
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
@@ -24,13 +24,13 @@ Default
 .btn:hover {
     text-decoration: none;
     color: var(--light-font-color);
-    background-color: var(--nord3);
+    background-color: var(--default-color);
     filter: var(--hover-brightness);
 }
 .btn:focus {
     color: var(--light-font-color);
-    background-color: var(--nord3);
-    border-color: var(--nord3);
+    background-color: var(--default-color);
+    border-color: var(--default-color);
     box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
@@ -40,13 +40,13 @@ Default
 .btn:active {
     text-decoration: none;
     color: var(--light-font-color);
-    background-color: var(--nord3);
+    background-color: var(--default-color);
     filter: var(--active-brightness);;   
 }
 .btn.active {
     color: var(--light-font-color);
-    background-color: var(--nord3);
-    border-color: var(--nord3);
+    background-color: var(--default-color);
+    border-color: var(--default-color);
     box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
@@ -59,7 +59,7 @@ Default
         color, box shadow, and the outline of the focus selector is kept.
     */
     color: var(--light-font-color);
-    background-color: var(--nord3);
+    background-color: var(--default-color);
 }
 .btn.active:hover {
     /*
@@ -67,7 +67,7 @@ Default
         color, box shadow, and the outline of the focus selector is kept.
     */
     color: var(--light-font-color);
-    background-color: var(--nord3);
+    background-color: var(--default-color);
 }
 
 /*

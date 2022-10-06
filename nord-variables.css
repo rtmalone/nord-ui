@@ -52,6 +52,7 @@
     --------------------------------
     */
 
+    --default-color: var(--nord3);
     --primary-color: var(--nord10);
     --secondary-color: var(--nord7);
     --success-color: var(--nord14);
