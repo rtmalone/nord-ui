@@ -4,24 +4,24 @@ Margin
 --------------------------------
 */
 
-.nord-m-around_none {
+.nord-m-around--none {
     margin: 0;
 }
-.nord-m-top_none {
+.nord-m-top--none {
     margin-top: 0;
 }
-.nord-m-top_x-small {
+.nord-m-top--x-small {
     margin-top: 0.25rem;
 }
-.nord-m-top_small {
+.nord-m-top--small {
     margin-top: 0.5rem;
 }
-.nord-m-top_medium {
+.nord-m-top--medium {
     margin-top: 1rem;
 }
-.nord-m-top_large {
+.nord-m-top--large {
     margin-top: 1.25rem;
 }
-.nord-m-top_x-large {
+.nord-m-top--x-large {
     margin-top: 1.5rem;
 }

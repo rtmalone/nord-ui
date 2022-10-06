@@ -1,0 +1,128 @@
+/*
+--------------------------------
+Badges
+--------------------------------
+*/
+
+.nord-badge {
+    display: inline-block;
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    padding: 0.4rem 0.8rem;
+    color: var(--light-font-color);
+    background-color: var(--default-color);
+    border: 1px solid rgba(var(--nord3-rbg) 0.2);
+    border-radius: var(--border-radius);
+}
+
+.nord-badge--pill {
+    border-radius: 3em;
+}
+
+.nord-badge.nord-badge--primary {
+    color: var(--light-font-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.nord-badge.nord-badge--secondary {
+    color: var(--light-font-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.nord-badge.nord-badge--success {
+    color: var(--dark-font-color);
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+.nord-badge.nord-badge--error {
+    color: var(--light-font-color);
+    background-color: var(--error-color);
+    border-color: var(--error-color);
+}
+.nord-badge.nord-badge--warning {
+    color: var(--dark-font-color);
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+
+/*
+--------------------------------
+Group
+--------------------------------
+*/
+
+.nord-badge-group {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.nord-badge--group > .nord-badge:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.nord-badge--group > .nord-badge:not(:last-child) {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/*
+--------------------------------
+Link Style
+--------------------------------
+*/
+
+a.nord-badge:hover,
+a.nord-badge-group:hover {
+    text-decoration: none;
+}
+a.nord-badge:hover {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #f7f7f7;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+a.nord-badge--group:hover > .nord-badge {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #f7f7f7;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+a.nord-badge.nord-badge--primary:hover {
+    color: #ffffff;
+    background-color: #45a3fb;
+    border-color: #45a3fb;
+}
+a.nord-badge--group:hover > .nord-badge.nord-badge--primary {
+    color: #ffffff;
+    background-color: #45a3fb;
+    border-color: #45a3fb;
+}
+a.nord-badge.nord-badge--success:hover {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #81eea8;
+    border-color: #81eea8;
+}
+a.nord-badge-g-roup:hover > .nord-badge.nord-badge--success {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #81eea8;
+    border-color: #81eea8;
+}
+a.nord-badge.nord-badge-secondary:hover {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #ffe04d;
+    border-color: #ffe04d;
+}
+a.nord-badge-group:hover > .nord-badge.nord-badge-secondary {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #ffe04d;
+    border-color: #ffe04d;
+}
+a.nord-badge.nord-badge-danger:hover {
+    color: #ffffff;
+    background-color: #ed586c;
+    border-color: #ed586c;
+}
+a.nord-badge-group:hover > .nord-badge.nord-badge-danger {
+    color: #ffffff;
+    background-color: #ed586c;
+    border-color: #ed586c;
+}

@@ -3,28 +3,28 @@
 Text colors
 --------------------------------
 */
-.text-white {
+.nord-text--white {
     color: #ffffff;
 }
-.text-primary {
+.nord-text--primary {
     color: var(--primary-color);
 }
-.text-secondary {
+.nord-text--secondary {
     color: var(--secondary-color);
 }
-.text-success {
+.nord-text--success {
     color: var(--success-color);
 }
-.text-warning {
+.nord-text--warning {
     color: var(--warning-color);
 }
-.text-error {
+.nord-text--error {
     color: var(--error-color);
 }
-.text-light {
+.nord-text--light {
     color: var(--light-font-color);
 }
-.text-dark {
+.nord-text--dark {
     color: var(--dark-font-color);
 }
 
@@ -34,24 +34,24 @@ Background colors
 --------------------------------
 */
 
-.bg-light {
-    background-color: var(--bg-light);
+.nord-bg--light {
+    background-color: var(--nord-bg--light);
 }
-.bg-dark {
-    background-color: var(--bg-dark);
+.nord-bg--dark {
+    background-color: var(--nord-bg--dark);
 }
-.bg-primary {
+.nord-bg--primary {
     background-color: var(--primary-color);
 }
-.bg-secondary {
+.nord-bg--secondary {
     background-color: var(--secondary-color);
 }
-.bg-success {
+.nord-bg--success {
     background-color: var(--success-color);
 }
-.bg-warning {
+.nord-bg--warning {
     background-color: var(--warning-color);
 }
-.bg-error {
+.nord-bg--error {
     background-color: var(--error-color);
 }

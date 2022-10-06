@@ -4,7 +4,7 @@ Default
 --------------------------------
 */
 
-.btn {
+.nord-btn {
     display: inline-block;
     height: 3.2rem;
     line-height: 3.2rem;
@@ -21,13 +21,13 @@ Default
     -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
 }
-.btn:hover {
+.nord-btn:hover {
     text-decoration: none;
     color: var(--light-font-color);
     background-color: var(--default-color);
     filter: var(--hover-brightness);
 }
-.btn:focus {
+.nord-btn:focus {
     color: var(--light-font-color);
     background-color: var(--default-color);
     border-color: var(--default-color);
@@ -37,13 +37,13 @@ Default
     outline: 1px dotted transparent;
     outline-offset: 0.2rem;
 }
-.btn:active {
+.nord-btn:active {
     text-decoration: none;
     color: var(--light-font-color);
     background-color: var(--default-color);
     filter: var(--active-brightness);;   
 }
-.btn.active {
+.nord-btn.active {
     color: var(--light-font-color);
     background-color: var(--default-color);
     border-color: var(--default-color);
@@ -53,7 +53,7 @@ Default
     outline: 1px dotted transparent;
     outline-offset: 0.2rem;
 }
-.btn:focus:hover {
+.nord-btn:focus:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -61,7 +61,7 @@ Default
     color: var(--light-font-color);
     background-color: var(--default-color);
 }
-.btn.active:hover {
+.nord-btn.active:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -76,12 +76,12 @@ Disabled
 --------------------------------
 */
 
-.btn.disabled,
-.btn:disabled {
+.nord-btn.disabled,
+.nord-btn:disabled {
     cursor: not-allowed;
     opacity: 0.6;
 }
-.btn.disabled {
+.nord-btn.disabled {
     color: var(--dark-font-color);
     background-color: var(--nord6);
     border-color: rgba(0, 0, 0, 0.2);
@@ -90,7 +90,7 @@ Disabled
     box-shadow: none;
     outline: none;
 }
-.btn:disabled {
+.nord-btn:disabled {
     color: var(--dark-font-color);
     background-color: var(--nord6);
     border-color: rgba(0, 0, 0, 0.2);
@@ -99,7 +99,7 @@ Disabled
     box-shadow: none;
     outline: none;
 }
-.btn.disabled:hover {
+.nord-btn.disabled:hover {
     color: var(--dark-font-color);
     background-color: var(--nord6);
     border-color: rgba(0, 0, 0, 0.2);
@@ -108,7 +108,7 @@ Disabled
     box-shadow: none;
     outline: none;
 }
-.btn.disabled:focus {
+.nord-btn.disabled:focus {
     color: var(--dark-font-color);
     background-color: var(--nord6);
     border-color: rgba(0, 0, 0, 0.2);
@@ -124,7 +124,7 @@ Block button
 --------------------------------
 */
 
-.btn-block {
+.nord-btn--block {
     display: block;
     width: 100%;
 }
@@ -135,7 +135,7 @@ Small button
 --------------------------------
 */
 
-.btn-small {
+.nord-btn--small {
     height: 2.5rem;
     line-height: 2.5rem;
     padding: 0 1rem;
@@ -148,7 +148,7 @@ Large button
 --------------------------------
 */
 
-.btn-large {
+.nord-btn--large {
     height: 4rem;
     line-height: 4rem;
     padding: 0 2rem;
@@ -161,7 +161,7 @@ Primary
 --------------------------------
 */
 
-.btn.btn-primary {
+.nord-btn.nord-btn--primary {
     color: var(--light-font-color);;
     background-color: var(--primary-color);;
     border-color: var(--primary-color);;
@@ -169,7 +169,7 @@ Primary
     -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
 }
-.btn.btn-primary:hover {
+.nord-btn.nord-btn--primary:hover {
     color: var(--light-font-color);;
     background-color: var(--primary-color);;
     border-color: var(--primary-color);;
@@ -178,10 +178,10 @@ Primary
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     filter: var(--hover-brightness);
 }
-.btn.btn-primary:active {
+.nord-btn.nord-btn--primary:active {
     filter: var(--active-brightness);
 }
-.btn.btn-primary:focus {
+.nord-btn.nord-btn--primary:focus {
     color: var(--light-font-color);;
     background-color: var(--primary-color);;
     border-color: var(--primary-color);;
@@ -190,7 +190,7 @@ Primary
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline-color: transparent;
 }
-.btn.btn-primary.active {
+.nord-btn.nord-btn--primary.active {
     color: var(--light-font-color);;
     background-color: var(--primary-color);;
     border-color: var(--primary-color);;
@@ -199,7 +199,7 @@ Primary
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline-color: transparent;
 }
-.btn.btn-primary:focus:hover {
+.nord-btn.nord-btn--primary:focus:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -207,7 +207,7 @@ Primary
     color: var(--light-font-color);;
     background-color: var(--primary-color);;
 }
-.btn.btn-primary.active:hover {
+.nord-btn.nord-btn--primary.active:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -222,7 +222,7 @@ Secondary
 --------------------------------
 */
 
-.btn.btn-secondary {
+.nord-btn.nord-btn--secondary {
     color: var(--light-font-color);;
     background-color: var(--secondary-color);;
     border-color: var(--secondary-color);;
@@ -230,7 +230,7 @@ Secondary
     -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
 }
-.btn.btn-secondary:hover {
+.nord-btn.nord-btn--secondary:hover {
     color: var(--light-font-color);;
     background-color: var(--secondary-color);;
     border-color: var(--secondary-color);;
@@ -239,10 +239,10 @@ Secondary
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     filter: var(--hover-brightness);
 }
-.btn.btn-secondary:active {
+.nord-btn.nord-btn--secondary:active {
     filter: var(--active-brightness);
 }
-.btn.btn-secondary:focus {
+.nord-btn.nord-btn--secondary:focus {
     color: var(--light-font-color);;
     background-color: var(--secondary-color);;
     border-color: var(--secondary-color);;
@@ -251,7 +251,7 @@ Secondary
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline-color: transparent;
 }
-.btn.btn-secondary.active {
+.nord-btn.nord-btn--secondary.active {
     color: var(--light-font-color);;
     background-color: var(--secondary-color);;
     border-color: var(--secondary-color);;
@@ -260,7 +260,7 @@ Secondary
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline-color: transparent;
 }
-.btn.btn-secondary:focus:hover {
+.nord-btn.nord-btn--secondary:focus:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -268,7 +268,7 @@ Secondary
     color: var(--light-font-color);;
     background-color: var(--secondary-color);;
 }
-.btn.btn-secondary.active:hover {
+.nord-btn.nord-btn--secondary.active:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -283,7 +283,7 @@ Success
 --------------------------------
 */
 
-.btn.btn-success {
+.nord-btn.nord-btn--success {
     color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
@@ -291,7 +291,7 @@ Success
     -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
 }
-.btn.btn-success:hover {
+.nord-btn.nord-btn--success:hover {
     color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
@@ -300,10 +300,10 @@ Success
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     filter: var(--hover-brightness);
 }
-.btn.btn-success:active {
+.nord-btn.nord-btn--success:active {
     filter: var(--active-brightness);
 }
-.btn.btn-success:focus {
+.nord-btn.nord-btn--success:focus {
     color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
@@ -312,7 +312,7 @@ Success
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline-color: transparent;
 }
-.btn.btn-success.active {
+.nord-btn.nord-btn--success.active {
     color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
@@ -321,7 +321,7 @@ Success
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline-color: transparent;
 }
-.btn.btn-success:focus:hover {
+.nord-btn.nord-btn--success:focus:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -329,7 +329,7 @@ Success
     color: var(--dark-font-color);;
     background-color: var(--success-color);;
 }
-.btn.btn-success.active:hover {
+.nord-btn.nord-btn--success.active:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -344,7 +344,7 @@ Warning
 --------------------------------
 */
 
-.btn.btn-warning {
+.nord-btn.nord-btn--warning {
     color: var(--dark-font-color);;
     background-color: var(--warning-color);;
     border-color: var(--warning-color);;
@@ -352,7 +352,7 @@ Warning
     -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
 }
-.btn.btn-warning:hover {
+.nord-btn.nord-btn--warning:hover {
     color: var(--dark-font-color);;
     background-color: var(--warning-color);;
     border-color: var(--warning-color);;
@@ -361,10 +361,10 @@ Warning
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     filter: var(--hover-brightness);
 }
-.btn.btn-warning:active {
+.nord-btn.nord-btn--warning:active {
     filter: var(--active-brightness);
 }
-.btn.btn-warning:focus {
+.nord-btn.nord-btn--warning:focus {
     color: var(--dark-font-color);;
     background-color: var(--warning-color);;
     border-color: var(--warning-color);;
@@ -373,7 +373,7 @@ Warning
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline-color: transparent;
 }
-.btn.btn-warning.active {
+.nord-btn.nord-btn--warning.active {
     color: var(--dark-font-color);;
     background-color: var(--warning-color);;
     border-color: var(--warning-color);;
@@ -382,7 +382,7 @@ Warning
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline-color: transparent;
 }
-.btn.btn-warning:focus:hover {
+.nord-btn.nord-btn--warning:focus:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -390,7 +390,7 @@ Warning
     color: var(--dark-font-color);;
     background-color: var(--warning-color);;
 }
-.btn.btn-warning.active:hover {
+.nord-btn.nord-btn--warning.active:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -405,7 +405,7 @@ Error
 --------------------------------
 */
 
-.btn.btn-error {
+.nord-btn.nord-btn--error {
     color: var(--light-font-color);;
     background-color: var(--error-color);;
     border-color: var(--error-color);;
@@ -413,7 +413,7 @@ Error
     -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
 }
-.btn.btn-error:hover {
+.nord-btn.nord-btn--error:hover {
     color: var(--light-font-color);;
     background-color: var(--error-color);;
     border-color: var(--error-color);;
@@ -422,10 +422,10 @@ Error
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
     filter: var(--hover-brightness);
 }
-.btn.btn-error:active {
+.nord-btn.nord-btn--error:active {
     filter: var(--active-brightness);
 }
-.btn.btn-error:focus {
+.nord-btn.nord-btn--error:focus {
     color: var(--light-font-color);;
     background-color: var(--error-color);;
     border-color: var(--error-color);;
@@ -434,7 +434,7 @@ Error
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline-color: transparent;
 }
-.btn.btn-error.active {
+.nord-btn.nord-btn--error.active {
     color: var(--light-font-color);;
     background-color: var(--error-color);;
     border-color: var(--error-color);;
@@ -443,7 +443,7 @@ Error
     -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline-color: transparent;
 }
-.btn.btn-error:focus:hover {
+.nord-btn.nord-btn--error:focus:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
@@ -451,7 +451,7 @@ Error
     color: var(--light-font-color);;
     background-color: var(--error-color);;
 }
-.btn.btn-error.active:hover {
+.nord-btn.nord-btn--error.active:hover {
     /*
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
