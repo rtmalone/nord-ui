@@ -286,7 +286,7 @@ Success
 */
 
 .btn.btn-success {
-    color: var(--light-font-color);;
+    color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
     -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
@@ -294,7 +294,7 @@ Success
     box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
 }
 .btn.btn-success:hover {
-    color: var(--light-font-color);;
+    color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
     -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
@@ -306,7 +306,7 @@ Success
     filter: var(--active-brightness);
 }
 .btn.btn-success:focus {
-    color: var(--light-font-color);;
+    color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
     box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
@@ -315,7 +315,7 @@ Success
     outline-color: transparent;
 }
 .btn.btn-success.active {
-    color: var(--light-font-color);;
+    color: var(--dark-font-color);;
     background-color: var(--success-color);;
     border-color: var(--success-color);;
     box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
@@ -328,7 +328,7 @@ Success
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
     */
-    color: var(--light-font-color);;
+    color: var(--dark-font-color);;
     background-color: var(--success-color);;
 }
 .btn.btn-success.active:hover {
@@ -336,6 +336,128 @@ Success
         Only text color and background properties are overridden, while the border 
         color, box shadow, and the outline of the focus selector is kept.
     */
-    color: var(--light-font-color);;
+    color: var(--dark-font-color);;
     background-color: var(--success-color);;
+}
+
+/*
+--------------------------------
+Warning
+--------------------------------
+*/
+
+.btn.btn-warning {
+    color: var(--dark-font-color);;
+    background-color: var(--warning-color);;
+    border-color: var(--warning-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+}
+.btn.btn-warning:hover {
+    color: var(--dark-font-color);;
+    background-color: var(--warning-color);;
+    border-color: var(--warning-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    filter: var(--hover-brightness);
+}
+.btn.btn-warning:active {
+    filter: var(--active-brightness);
+}
+.btn.btn-warning:focus {
+    color: var(--dark-font-color);;
+    background-color: var(--warning-color);;
+    border-color: var(--warning-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-warning.active {
+    color: var(--dark-font-color);;
+    background-color: var(--warning-color);;
+    border-color: var(--warning-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-warning:focus:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--dark-font-color);;
+    background-color: var(--warning-color);;
+}
+.btn.btn-warning.active:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--dark-font-color);;
+    background-color: var(--warning-color);;
+}
+
+/*
+--------------------------------
+Error
+--------------------------------
+*/
+
+.btn.btn-error {
+    color: var(--light-font-color);;
+    background-color: var(--error-color);;
+    border-color: var(--error-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+}
+.btn.btn-error:hover {
+    color: var(--light-font-color);;
+    background-color: var(--error-color);;
+    border-color: var(--error-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    filter: var(--hover-brightness);
+}
+.btn.btn-error:active {
+    filter: var(--active-brightness);
+}
+.btn.btn-error:focus {
+    color: var(--light-font-color);;
+    background-color: var(--error-color);;
+    border-color: var(--error-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-error.active {
+    color: var(--light-font-color);;
+    background-color: var(--error-color);;
+    border-color: var(--error-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-error:focus:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--error-color);;
+}
+.btn.btn-error.active:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--error-color);;
 }
