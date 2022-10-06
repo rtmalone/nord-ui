@@ -1,3 +1,5 @@
 @import './normalize-css.css';
 @import './nord-base-style.css';
-@import "./nord-button.css"
+@import "./nord-button.css";
+@import './utilities/text-utils.css';
+@import './utilities/color-utils.css';
