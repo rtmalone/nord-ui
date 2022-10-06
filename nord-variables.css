@@ -90,4 +90,17 @@
     */
 
     --border-radius: 0.5rem;
+
+    /*
+    --------------------------------
+    Spacing
+    --------------------------------
+    */
+
+    --spacing-none: 0;
+    --spacing-x-small: 0.5rem;
+    --spacing-small: 0.75rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 1.5rem;
+    --spacing-x-large: 2rem;
 }
