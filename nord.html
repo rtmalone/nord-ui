@@ -11,7 +11,7 @@
     <link rel="icon" href="path/to/fav.png">
     <title>Nord UI test</title>
 
-    <!-- Halfmoon CSS -->
+    <!-- Nord-ui CSS -->
     <link href="nord-ui.css" rel="stylesheet" />
     <!--
       Or,
@@ -19,12 +19,42 @@
       <link href="css/halfmoon.min.css" rel="stylesheet" />
     -->
   </head>
-  <body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-theme-onload="true">
-    <!-- Modals go here -->
-    <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+  <body class="nord-p-around--large" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-theme-onload="true">
 
     <!-- Page wrapper start -->
-    <button class="btn" type="button">Default</button>
-    <p>It also works fine for more inconspicuous and passive elements like borders or as dropshadow between different components. In the context of syntax highlighting it's not used at all.</p>
-  </body>
+    <button class="nord-btn" type="button">Default</button>
+    <button class="nord-btn nord-btn--primary" type="button">Default</button>
+    <button class="nord-btn nord-btn--secondary" type="button">Default</button>
+    <button class="nord-btn nord-btn--success" type="button">Default</button>
+    <button class="nord-btn nord-btn--warning" type="button">Default</button>
+    <button class="nord-btn nord-btn--error" type="button">Default</button>
+
+    <p class="nord-text--muted">It also <a href="#">works</a> fine for more inconspicuous and passive elements like borders or as dropshadow between different components. In the context of syntax highlighting it's not used at all.</p>
+    
+    <span class="nord-badge">Default Badge</span>  
+    <span class="nord-badge nord-badge--primary">Default Badge</span>  
+    <span class="nord-badge nord-badge--secondary">Default Badge</span>  
+    <span class="nord-badge nord-badge--success">Default Badge</span>  
+    <span class="nord-badge nord-badge--warning">Default Badge</span>  
+    <span class="nord-badge nord-badge--error badge--pill">Default Badge</span>  
+
+    <div class="nord-m-top--large">
+      <span class="nord-badge--group" role="group" aria-label="Badge group example">
+        <span class="nord-badge">Default</span>
+        <span class="nord-badge nord-badge--primary">Primary</span>
+        <span class="nord-badge nord-badge--warning">Danger</span>
+      </span>
+    </div>
+
+    <!-- Link badges -->
+    <div class="nord-m-top--large">
+
+      <a href="#" class="nord-badge">Default</a>
+      <a href="#" class="nord-badge nord-badge--primary">Primary</a>
+      <a href="#" class="nord-badge nord-badge--secondary">Secondary</a>
+      <a href="#" class="nord-badge nord-badge--success">Success</a>
+      <a href="#" class="nord-badge nord-badge--warning">Warning</a>
+      <a href="#" class="nord-badge nord-badge--error">Error</a>
+    </div>
+    </body>
 </html>

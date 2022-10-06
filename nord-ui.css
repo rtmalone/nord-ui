@@ -1,7 +1,7 @@
 @import './normalize-css.css';
 @import './nord-base-style.css';
-@import './nord-button.css';
 @import './utilities/text.css';
 @import './utilities/color.css';
 @import './utilities/spacing.css';
-@import './componente/badges.css';
+@import './elements/button.css';
+@import './components/badges.css';
