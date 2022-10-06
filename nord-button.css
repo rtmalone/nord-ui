@@ -33,9 +33,9 @@ Default
     color: var(--light-font-color);
     background-color: var(--nord3);
     border-color: var(--nord3);
-    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline: 1px dotted transparent;
     outline-offset: 0.2rem;
 }
@@ -49,9 +49,9 @@ Default
     color: var(--light-font-color);
     background-color: var(--nord3);
     border-color: var(--nord3);
-    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline: 1px dotted transparent;
     outline-offset: 0.2rem;
 }
@@ -187,18 +187,18 @@ Primary
     color: var(--light-font-color);;
     background-color: var(--primary-color);;
     border-color: var(--primary-color);;
-    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline-color: transparent;
 }
 .btn.btn-primary.active {
     color: var(--light-font-color);;
     background-color: var(--primary-color);;
     border-color: var(--primary-color);;
-    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
-    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
     outline-color: transparent;
 }
 .btn.btn-primary:focus:hover {
@@ -218,3 +218,63 @@ Primary
     background-color: var(--primary-color);;
 }
 
+/*
+--------------------------------
+Secondary
+--------------------------------
+*/
+
+.btn.btn-secondary {
+    color: var(--light-font-color);;
+    background-color: var(--secondary-color);;
+    border-color: var(--secondary-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+}
+.btn.btn-secondary:hover {
+    color: var(--light-font-color);;
+    background-color: var(--secondary-color);;
+    border-color: var(--secondary-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    filter: var(--hover-brightness);
+}
+.btn.btn-secondary:active {
+    filter: var(--active-brightness);
+}
+.btn.btn-secondary:focus {
+    color: var(--light-font-color);;
+    background-color: var(--secondary-color);;
+    border-color: var(--secondary-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    outline-color: transparent;
+}
+.btn.btn-secondary.active {
+    color: var(--light-font-color);;
+    background-color: var(--secondary-color);;
+    border-color: var(--secondary-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(255,255,255,0.8);;
+    outline-color: transparent;
+}
+.btn.btn-secondary:focus:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--secondary-color);;
+}
+.btn.btn-secondary.active:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--secondary-color);;
+}
