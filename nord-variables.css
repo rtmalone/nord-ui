@@ -52,11 +52,14 @@
     --------------------------------
     */
 
-    --primary-color: var(--nord8);
-    --secondary-color: var(--nord9);
+    --primary-color: var(--nord10);
+    --secondary-color: var(--nord8);
     --success-color: var(--nord14);
     --warning-color: var(--nord13);
     --error-color: var(--nord11);
+
+    --hover-brightness: brightness(1.2);
+    --active-brightness: brightness(0.8);
 
     /*
     --------------------------------

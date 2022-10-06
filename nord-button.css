@@ -27,7 +27,7 @@ Default
     text-decoration: none;
     color: var(--light-font-color);
     background-color: var(--nord3);
-    filter: brightness(1.2);
+    filter: var(--hover-brightness);
 }
 .btn:focus {
     color: var(--light-font-color);
@@ -43,7 +43,7 @@ Default
     text-decoration: none;
     color: var(--light-font-color);
     background-color: var(--nord3);
-    filter: brightness(0.8);   
+    filter: var(--active-brightness);;   
 }
 .btn.active {
     color: var(--light-font-color);
@@ -86,7 +86,6 @@ Disabled
 .btn.disabled {
     color: var(--dark-font-color);
     background-color: var(--nord6);
-    background-image: none;
     border-color: rgba(0, 0, 0, 0.2);
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -96,7 +95,6 @@ Disabled
 .btn:disabled {
     color: var(--dark-font-color);
     background-color: var(--nord6);
-    background-image: none;
     border-color: rgba(0, 0, 0, 0.2);
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -106,7 +104,6 @@ Disabled
 .btn.disabled:hover {
     color: var(--dark-font-color);
     background-color: var(--nord6);
-    background-image: none;
     border-color: rgba(0, 0, 0, 0.2);
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -116,7 +113,6 @@ Disabled
 .btn.disabled:focus {
     color: var(--dark-font-color);
     background-color: var(--nord6);
-    background-image: none;
     border-color: rgba(0, 0, 0, 0.2);
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -159,5 +155,66 @@ Large button
     line-height: 4rem;
     padding: 0 2rem;
     font-size: 1.8rem;
+}
+
+/*
+--------------------------------
+Primary
+--------------------------------
+*/
+
+.btn.btn-primary {
+    color: var(--light-font-color);;
+    background-color: var(--primary-color);;
+    border-color: var(--primary-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+}
+.btn.btn-primary:hover {
+    color: var(--light-font-color);;
+    background-color: var(--primary-color);;
+    border-color: var(--primary-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    filter: var(--hover-brightness);
+}
+.btn.btn-primary:active {
+    filter: var(--active-brightness);
+}
+.btn.btn-primary:focus {
+    color: var(--light-font-color);;
+    background-color: var(--primary-color);;
+    border-color: var(--primary-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-primary.active {
+    color: var(--light-font-color);;
+    background-color: var(--primary-color);;
+    border-color: var(--primary-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-primary:focus:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--primary-color);;
+}
+.btn.btn-primary.active:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--primary-color);;
 }
 
