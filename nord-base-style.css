@@ -1,5 +1,51 @@
 @import './nord-variables.css';
 
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  letter-spacing: 1px
+}
+
+.nord-light button,
+.nord-light input,
+.nord-light optgroup,
+.nord-light select,
+.nord-light textarea {
+  letter-spacing: normal
+}
+
+/* HTML font size and scaling */
+
+html {
+    font-size: 62.5%;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (min-width: 1920px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
 /* DOM body */
 
 body {
@@ -10,15 +56,18 @@ body {
     line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
-}
-.nord-light {
-    background-color: var(--light-bg);
-    background-image: none;
-    color: var(--dark-font-color);
     /*
-    Anti-aliasing works best on light fonts on dark backgrounds. Otherwise, 
-    there is a loss of readability. 
+        Anti-aliasing works best on light fonts on dark backgrounds. 
+        Otherwise, there is a loss of readability. 
     */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.nord-light {
+    background-color: var(--light-bg);
+    background-image: none;
+    color: var(--dark-font-color);
+    letter-spacing: normal;
+}
+
