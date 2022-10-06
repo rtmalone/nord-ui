@@ -278,3 +278,64 @@ Secondary
     color: var(--light-font-color);;
     background-color: var(--secondary-color);;
 }
+
+/*
+--------------------------------
+Success
+--------------------------------
+*/
+
+.btn.btn-success {
+    color: var(--light-font-color);;
+    background-color: var(--success-color);;
+    border-color: var(--success-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+}
+.btn.btn-success:hover {
+    color: var(--light-font-color);;
+    background-color: var(--success-color);;
+    border-color: var(--success-color);;
+    -moz-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+    filter: var(--hover-brightness);
+}
+.btn.btn-success:active {
+    filter: var(--active-brightness);
+}
+.btn.btn-success:focus {
+    color: var(--light-font-color);;
+    background-color: var(--success-color);;
+    border-color: var(--success-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-success.active {
+    color: var(--light-font-color);;
+    background-color: var(--success-color);;
+    border-color: var(--success-color);;
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    outline-color: transparent;
+}
+.btn.btn-success:focus:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--success-color);;
+}
+.btn.btn-success.active:hover {
+    /*
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
+    */
+    color: var(--light-font-color);;
+    background-color: var(--success-color);;
+}
