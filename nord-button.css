@@ -1,5 +1,11 @@
 @import './nord-variables.css';
 
+/*
+--------------------------------
+Default
+--------------------------------
+*/
+
 .btn {
     display: inline-block;
     height: 3.2rem;
@@ -27,12 +33,11 @@
     color: var(--light-font-color);
     background-color: var(--nord3);
     border-color: var(--nord3);
-    box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
-    -moz-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
-    -webkit-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline: 1px dotted transparent;
     outline-offset: 0.2rem;
-    filter: brightness(0.8);   
 }
 .btn:active {
     text-decoration: none;
@@ -41,28 +46,118 @@
     filter: brightness(0.8);   
 }
 .btn.active {
-    color: rgba(0, 0, 0, 0.7);
-    background-color: #ffffff;
-    border-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
-    -moz-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
-    -webkit-box-shadow: 0 0 3px 0.1rem rgba(24, 144, 255, 0.6);
+    color: var(--light-font-color);
+    background-color: var(--nord3);
+    border-color: var(--nord3);
+    box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -moz-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
+    -webkit-box-shadow: 0 0 3px 0.1rem rgba(var(--nord4-rgb), 0.6);
     outline: 1px dotted transparent;
     outline-offset: 0.2rem;
 }
 .btn:focus:hover {
     /*
-    Only text color and background properties are overridden, while the border 
-    color, box shadow, and the outline of the focus selector is kept.
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
     */
-    color: rgba(0, 0, 0, 0.7);
-    background-color: #f7f7f7;
+    color: var(--light-font-color);
+    background-color: var(--nord3);
 }
 .btn.active:hover {
     /*
-    Only text color and background properties are overridden, while the border 
-    color, box shadow, and the outline of the focus selector is kept.
+        Only text color and background properties are overridden, while the border 
+        color, box shadow, and the outline of the focus selector is kept.
     */
-    color: rgba(0, 0, 0, 0.7);
-    background-color: #f7f7f7;
+    color: var(--light-font-color);
+    background-color: var(--nord3);
 }
+
+/*
+--------------------------------
+Disabled
+--------------------------------
+*/
+
+.btn.disabled,
+.btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.btn.disabled {
+    color: var(--dark-font-color);
+    background-color: var(--nord6);
+    background-image: none;
+    border-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+.btn:disabled {
+    color: var(--dark-font-color);
+    background-color: var(--nord6);
+    background-image: none;
+    border-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+.btn.disabled:hover {
+    color: var(--dark-font-color);
+    background-color: var(--nord6);
+    background-image: none;
+    border-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+.btn.disabled:focus {
+    color: var(--dark-font-color);
+    background-color: var(--nord6);
+    background-image: none;
+    border-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+/*
+--------------------------------
+Block button
+--------------------------------
+*/
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/*
+--------------------------------
+Small button
+--------------------------------
+*/
+
+.btn-small {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+/*
+--------------------------------
+Large button
+--------------------------------
+*/
+
+.btn-large {
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0 2rem;
+    font-size: 1.8rem;
+}
+
