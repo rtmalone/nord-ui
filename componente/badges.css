@@ -52,7 +52,7 @@ Group
 --------------------------------
 */
 
-.nord-badge-group {
+.nord-badge--group {
     display: -ms-inline-flexbox;
     display: inline-flex;
 }
@@ -73,56 +73,72 @@ Link Style
 */
 
 a.nord-badge:hover,
-a.nord-badge-group:hover {
+a.nord-badge--group:hover {
     text-decoration: none;
 }
 a.nord-badge:hover {
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #f7f7f7;
-    border-color: rgba(0, 0, 0, 0.2);
+    color: var(--light-font-color);
+    background-color: var(--default-color);
+    border-color: var(--nord6);
 }
-a.nord-badge--group:hover > .nord-badge {
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #f7f7f7;
-    border-color: rgba(0, 0, 0, 0.2);
+a.nord-badge---group:hover > .nord-badge {
+    color: var(--light-font-color);
+    background-color: var(--default-color);
+    border-color: var(--nord6);
+    filter: var(--hover-brightness);
 }
 a.nord-badge.nord-badge--primary:hover {
-    color: #ffffff;
-    background-color: #45a3fb;
-    border-color: #45a3fb;
+    color: var(--light-font-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
-a.nord-badge--group:hover > .nord-badge.nord-badge--primary {
-    color: #ffffff;
-    background-color: #45a3fb;
-    border-color: #45a3fb;
+a.nord-badge---group:hover > .nord-badge.nord-badge--primary {
+    color: var(--light-font-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    filter: var(--hover-brightness);
+}
+a.nord-badge.nord-badge--secondary:hover {
+    color: var(--light-font-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+a.nord-badge---group:hover > .nord-badge.nord-badge--secondary {
+    color: var(--light-font-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    filter: var(--hover-brightness);
 }
 a.nord-badge.nord-badge--success:hover {
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #81eea8;
-    border-color: #81eea8;
+    color: var(--dark-font-color);
+    background-color: var(--success-color);
+    border-color: var(--success-color);
 }
-a.nord-badge-g-roup:hover > .nord-badge.nord-badge--success {
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #81eea8;
-    border-color: #81eea8;
+a.nord-badge--group:hover > .nord-badge.nord-badge--success {
+    color: var(--dark-font-color);
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+    filter: var(--hover-brightness);
 }
-a.nord-badge.nord-badge-secondary:hover {
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #ffe04d;
-    border-color: #ffe04d;
+a.nord-badge.nord-badge--warning:hover {
+    color: var(--dark-font-color);
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
 }
-a.nord-badge-group:hover > .nord-badge.nord-badge-secondary {
-    color: rgba(0, 0, 0, 0.85);
-    background-color: #ffe04d;
-    border-color: #ffe04d;
+a.nord-badge--group:hover > .nord-badge.nord-badge--warning {
+    color: var(--dark-font-color);
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+    filter: var(--hover-brightness);
 }
-a.nord-badge.nord-badge-danger:hover {
-    color: #ffffff;
-    background-color: #ed586c;
-    border-color: #ed586c;
+a.nord-badge.nord-badge--error:hover {
+    color: var(--light-font-color);
+    background-color: var(--error-color);
+    border-color: var(--error-color);
 }
-a.nord-badge-group:hover > .nord-badge.nord-badge-danger {
-    color: #ffffff;
-    background-color: #ed586c;
-    border-color: #ed586c;
+a.nord-badge--group:hover > .nord-badge.nord-badge--error {
+    color: var(--light-font-color);
+    background-color: var(--error-color);
+    border-color: var(--error-color);
+    filter: var(--hover-brightness);
 }
