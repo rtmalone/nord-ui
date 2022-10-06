@@ -16,7 +16,7 @@ input,
 optgroup,
 select,
 textarea {
-  letter-spacing: 0.05rem;
+  letter-spacing: var(--letter-spacing);
 }
 
 .nord-light button,
@@ -40,7 +40,7 @@ a:hover {
 
 html {
     font-size: 62.5%;
-    letter-spacing: 0.05rem;
+    letter-spacing: var(--letter-spacing);
 }
 
 @media (min-width: 1600px) {

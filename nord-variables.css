@@ -81,4 +81,13 @@
     --light-font-color: var(--nord6);
 
     --focus-outline: var(--nord8-rgb);
+    --letter-spacing: 0.05rem;
+
+    /*
+    --------------------------------
+    Borders
+    --------------------------------
+    */
+
+    --border-radius: 0.5rem;
 }
