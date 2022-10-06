@@ -27,6 +27,15 @@ textarea {
   letter-spacing: normal
 }
 
+a {
+    color: var(--nord8);
+    text-decoration: none;
+}
+a:hover {
+    filter: var(--hover-brightness);
+    text-decoration: underline;
+}
+
 /* HTML font size and scaling */
 
 html {
