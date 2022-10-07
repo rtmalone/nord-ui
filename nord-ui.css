@@ -5,6 +5,7 @@
 @import './utilities/spacing.css';
 
 @import './elements/button.css';
+@import './elements/image.css';
 @import './elements/code.css';
 
 @import './components/badges.css';
