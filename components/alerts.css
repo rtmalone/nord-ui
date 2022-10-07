@@ -1,0 +1,143 @@
+/*
+--------------------------------
+Alerts
+--------------------------------
+*/
+
+.nord-alert {
+    position: relative;
+    padding: 1rem 2rem;
+    color: var(--light-font-color);
+    background-color: rgba(var(--nord3-rgb), 0.25);;
+    background-image: none;
+    border: 1px solid var(--nord4);
+    border-radius: var(--border-radius);
+}
+.nord-light .nord-alert {
+    color: var(--dark-font-color);
+    background-color: #191c20;
+    background-image: none;
+    border-color: var(--nord3);
+}
+.nord-alert--heading {
+    color: inherit;
+    margin: 0 0 0.75rem 0;
+}
+.nord-light .nord-alert--heading {
+    color: inherit;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+}
+.nord-alert--link,
+.nord-light .nord-alert--link {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: underline;
+}
+.nord-alert--link:hover,
+.nord-light .nord-alert--link:hover {
+    color: inherit;
+    opacity: 1.5;
+}
+.nord-alert .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: inherit;
+    padding: 0.4rem 0.6rem;
+    line-height: 1;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border-color: transparent;
+}
+.nord-alert .close:focus {
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+    outline-offset: 0.2rem;
+}
+.nord-light .nord-alert .close:focus {
+    outline-color: rgba(255, 255, 255, 0.5);
+}
+.nord-alert.dispose {
+    display: none;
+}
+
+/*
+--------------------------------
+Context Colors
+--------------------------------
+*/
+
+.nord-alert.nord-alert--primary {
+    color: var(--primary-color);
+    background-color: rgba(var(--nord10-rgb), 0.25);
+    background-image: none;
+    border-color: var(--primary-color);
+    filter: brightness(1.15);
+}
+.nord-alert.nord-alert--secondary {
+    color: var(--secondary-color);
+    background-color: rgba(var(--nord7-rgb), 0.25);
+    background-image: none;
+    border-color: var(--secondary-color);
+    filter: brightness(1.15);
+}
+.nord-alert.nord-alert--success {
+    color: var(--success-color);
+    background-color: rgba(var(--nord14-rgb), 0.25);
+    background-image: none;
+    border-color: var(--success-color);
+    filter: brightness(1.15);
+}
+.nord-alert.nord-alert--warning {
+    color: var(--warning-color);
+    background-color: rgba(var(--nord13-rgb), 0.25);
+    background-image: none;
+    border-color: var(--warning-color);
+    filter: brightness(1.15);
+}
+.nord-alert.nord-alert--error {
+    color: var(--error-color);
+    background-color: rgba(var(--nord11-rgb), 0.25);
+    background-image: none;
+    border-color: var(--error-color);
+    filter: brightness(1.15);
+}
+
+/*
+--------------------------------
+Filled
+--------------------------------
+*/
+
+.nord-alert.nord-alert--primary.filled {
+    color: var(--light-font-color);
+    background-color: var(--primary-color);
+    background-image: none;
+    border-color: var(--primary-color);
+}
+.nord-alert.nord-alert--secondary.filled {
+    color: var(--light-font-color);
+    background-color: var(--secondary-color);
+    background-image: none;
+    border-color: var(--secondary-color);
+}
+.nord-alert.nord-alert--success.filled {
+    color: var(--dark-font-color);
+    background-color: var(--success-color);
+    background-image: none;
+    border-color: var(--success-color);
+}
+.nord-alert.nord-alert--warning.filled {
+    color: var(--dark-font-color);
+    background-color: var(--warning-color);
+    background-image: none;
+    border-color: var(--warning-color);
+}
+.nord-alert.nord-alert--error.filled {
+    color: var(--light-font-color);
+    background-color: var(--error-color);
+    background-image: none;
+    border-color: var(--error-color);
+}
