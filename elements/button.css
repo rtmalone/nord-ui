@@ -6,8 +6,9 @@ Default
 
 .nord-btn {
     display: inline-block;
-    height: 3.2rem;
-    line-height: 3.2rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
     padding: 0 1.5rem;
     text-align: center;
     white-space: nowrap;
@@ -136,10 +137,10 @@ Small button
 */
 
 .nord-btn--small {
-    height: 2.5rem;
-    line-height: 2.5rem;
+    height: 2rem;
+    line-height: 2rem;
     padding: 0 1rem;
-    font-size: 1.2rem;
+    font-size: .9=85rem;
 }
 
 /*
@@ -149,10 +150,10 @@ Large button
 */
 
 .nord-btn--large {
-    height: 4rem;
-    line-height: 4rem;
+    height: 3rem;
+    line-height: 3rem;
     padding: 0 2rem;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 /*

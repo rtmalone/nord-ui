@@ -7,9 +7,8 @@ Badges
 .nord-badge {
     display: inline-block;
     position: relative;
-    font-size: 1.2rem;
-    line-height: 1.2;
-    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
     color: var(--light-font-color);
     background-color: var(--default-color);
     border: 1px solid rgba(var(--nord3-rbg) 0.2);
