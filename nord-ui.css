@@ -3,6 +3,9 @@
 @import './utilities/text.css';
 @import './utilities/color.css';
 @import './utilities/spacing.css';
+
 @import './elements/button.css';
+@import './elements/code.css';
+
 @import './components/badges.css';
 @import './components/alerts.css';
